@@ -328,7 +328,6 @@ export default function MissionSection() {
                 Throughout the US, we build websites, boost rankings, and manage your socials so you don't have to. Our solutions are affordable, our support is solid, and yes — we actually answer emails. Whether you're just starting out or upgrading your digital game, Neptrax is the partner that gets things done (without the fluff).
               </p>
             </div>
-      </div>
           </ScrollReveal>
       </div>
     </section>
