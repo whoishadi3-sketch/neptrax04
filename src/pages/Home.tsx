@@ -120,7 +120,7 @@ export default function Home({ onNavigate }: HomeProps) {
 
       <MissionSection />
 
-      <section className="py-20 bg-[#0d1117]">
+      <section className="py-20 bg-[#11182]">
         <div className="max-w-7xl mx-auto px-6">
           <ScrollReveal direction="up" delay={0}>
             <h2 className="text-4xl font-bold text-[#f1f5f9] text-center mb-4">
