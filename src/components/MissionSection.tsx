@@ -117,8 +117,7 @@ export default function MissionSection() {
                   — Ethan Fraser, Founder at TechNest
                 </p>
               </div>
-
-              
+       
               <div className="grid grid-cols-2 gap-6">
                 <ScrollReveal direction="zoom" delay={300}>
                   <div className="bg-gradient-to-br from-[#2563eb] to-[#1e3a8a] rounded-xl p-6 text-center">
