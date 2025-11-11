@@ -57,7 +57,7 @@ export default function Home({ onNavigate }: HomeProps) {
                   with a website built to
                 </span>
                 <br />
-                convert & scale.
+                convert & scale
               </h1>
             </ScrollReveal>
 
