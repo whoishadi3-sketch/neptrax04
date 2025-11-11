@@ -120,34 +120,6 @@ export default function Home({ onNavigate }: HomeProps) {
 
       <MissionSection />
 
-      <section className="py-20 bg-[#111827]">
-        <div className="max-w-7xl mx-auto px-6">
-          <ScrollReveal direction="up" delay={0}>
-            <h2 className="text-4xl font-bold text-[#f1f5f9] text-center mb-4">
-              Who We Work With
-            </h2>
-          </ScrollReveal>
-
-          <ScrollReveal direction="fade" delay={100}>
-            <p className="text-[#94a3b8] text-center mb-12">
-              We partner with businesses of all sizes across industries
-            </p>
-          </ScrollReveal>
-
-          <div className="flex justify-center">
-            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 max-w-5xl">
-              {clients.slice(0, 3).map((client, index) => (
-                <ScrollReveal key={index} direction="up" delay={index * 100} depth={1}>
-                  <div className="bg-[#1e293b] rounded-2xl p-6 hover:bg-[#1e3a8a] hover:scale-105 transition-all shadow-[0_4px_20px_rgba(0,0,0,0.2)] hover:shadow-[0_0_30px_rgba(37,99,235,0.3)] h-full">
-                    <client.icon className="text-[#2563eb] mb-4" size={32} />
-                    <h3 className="text-xl font-bold text-[#f1f5f9] mb-2">{client.title}</h3>
-                    <p className="text-[#94a3b8] text-sm">{client.description}</p>
-                  </div>
-                </ScrollReveal>
-              ))}
-            </div>
-          </div>
-
           <div className="flex justify-center mt-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl">
               {clients.slice(3).map((client, index) => (
