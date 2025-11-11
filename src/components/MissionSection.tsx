@@ -126,10 +126,11 @@ export default function MissionSection() {
                 <ScrollReveal direction="zoom" delay={300}>
                   <div className="relative rounded-2xl p-6 text-center overflow-hidden backdrop-blur-xl bg-white/10 border border-white/10 transition-all duration-500 hover:scale-[1.03] hover:shadow-[0_0_30px_rgba(80,70,255,0.4)]">
                     {/* Glossy overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-white/20 via-transparent to-white/5 opacity-30 pointer-events-none"></div>
+                    <div className="absolute inset-0 bg-gradient-to-br from-white/30 via-transparent to-white/10 opacity-40 pointer-events-none"></div>
 
                     {/* Subtle glow layer */}
-                    <div className="absolute -inset-[1px] rounded-2xl bg-gradient-to-br from-[#2563eb]/30 to-[#8b5cf6]/30 blur-3xl opacity-40"></div>
+                    <div className="absolute -inset-[1px] rounded-2xl bg-gradient-to-br from-[#2563eb]/25 to-[#8b5cf6]/25 blur-4xl opacity-60"></div>
+</div>
 
                     <div className="relative z-10">
                       <div className="text-4xl font-extrabold bg-gradient-to-r from-[#3b82f6] via-[#6366f1] to-[#8b5cf6] bg-clip-text text-transparent mb-2">
