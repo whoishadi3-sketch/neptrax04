@@ -75,15 +75,6 @@ export default function Privacy() {
               </p>
             </div>
           </div>
-
-          <div className="bg-gradient-to-r from-[#0f172a] to-[#1e3a8a] rounded-2xl p-8">
-            <div className="flex items-start gap-3">
-              <div className="w-10 h-10 rounded-lg bg-[#f1f5f9]/10 flex items-center justify-center flex-shrink-0">
-              </div>
-              <div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
