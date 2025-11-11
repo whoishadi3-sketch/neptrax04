@@ -134,7 +134,7 @@ export default function MissionSection() {
 
                  {/* Subtle glow layer */}
                  <div className="absolute -inset-[1px] rounded-2xl bg-gradient-to-br from-[#2563eb]/25 to-[#8b5cf6]/25 blur-4xl opacity-60"></div>
-               </div>
+                </div>
 
                     <div className="relative z-10">
                       <div className="text-4xl font-extrabold bg-gradient-to-r from-[#3b82f6] via-[#6366f1] to-[#8b5cf6] bg-clip-text text-transparent mb-2">
