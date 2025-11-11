@@ -5,7 +5,13 @@ import {
   TrendingUp,
   Megaphone,
   Briefcase,
-  Zap
+  Zap,
+  CheckSquare,
+  Archive,
+  Package,
+  Eye,
+  MessageCircle,
+  FileText
 } from 'lucide-react';
 import ScrollReveal from './ScrollReveal';
 
@@ -142,6 +148,70 @@ export default function MissionSection() {
             </p>
           </div>
         </ScrollReveal>
+
+        <div className="py-20">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-24">
+            <ScrollReveal direction="up" delay={0}>
+              <div className="bg-[#1e293b]/50 rounded-xl p-8 border border-white/10 hover:border-[#2563eb]/50 hover:-translate-y-1 transition-all">
+                <CheckSquare className="text-[#2563eb] mb-4" size={32} />
+                <h3 className="text-xl font-bold text-[#f1f5f9] mb-3">Project Breakdown</h3>
+                <p className="text-[#94a3b8] text-sm leading-relaxed">
+                  Split websites, SEO plans, or design deliverables into clear, actionable tasks for smooth execution.
+                </p>
+              </div>
+            </ScrollReveal>
+
+            <ScrollReveal direction="up" delay={100}>
+              <div className="bg-[#1e293b]/50 rounded-xl p-8 border border-white/10 hover:border-[#2563eb]/50 hover:-translate-y-1 transition-all">
+                <Archive className="text-[#2563eb] mb-4" size={32} />
+                <h3 className="text-xl font-bold text-[#f1f5f9] mb-3">Smart Task Archiving</h3>
+                <p className="text-[#94a3b8] text-sm leading-relaxed">
+                  Once a web page is built, a keyword plan is implemented, or a design is finalized, it's auto-archived to keep your dashboard clean and efficient.
+                </p>
+              </div>
+            </ScrollReveal>
+
+            <ScrollReveal direction="up" delay={200}>
+              <div className="bg-[#1e293b]/50 rounded-xl p-8 border border-white/10 hover:border-[#2563eb]/50 hover:-translate-y-1 transition-all">
+                <Package className="text-[#2563eb] mb-4" size={32} />
+                <h3 className="text-xl font-bold text-[#f1f5f9] mb-3">Client-Ready Deliverables</h3>
+                <p className="text-[#94a3b8] text-sm leading-relaxed">
+                  Every output—whether it's a website, SEO report, or design file—is packaged professionally for instant handoff or launch.
+                </p>
+              </div>
+            </ScrollReveal>
+
+            <ScrollReveal direction="up" delay={300}>
+              <div className="bg-[#1e293b]/50 rounded-xl p-8 border border-white/10 hover:border-[#2563eb]/50 hover:-translate-y-1 transition-all">
+                <Eye className="text-[#2563eb] mb-4" size={32} />
+                <h3 className="text-xl font-bold text-[#f1f5f9] mb-3">Focused Views</h3>
+                <p className="text-[#94a3b8] text-sm leading-relaxed">
+                  Customize your dashboard to focus only on the workflows, metrics, or tasks that matter most to you.
+                </p>
+              </div>
+            </ScrollReveal>
+
+            <ScrollReveal direction="up" delay={400}>
+              <div className="bg-[#1e293b]/50 rounded-xl p-8 border border-white/10 hover:border-[#2563eb]/50 hover:-translate-y-1 transition-all">
+                <MessageCircle className="text-[#2563eb] mb-4" size={32} />
+                <h3 className="text-xl font-bold text-[#f1f5f9] mb-3">Collaborative Threads</h3>
+                <p className="text-[#94a3b8] text-sm leading-relaxed">
+                  Discuss layout tweaks, SEO updates, or design feedback directly within each task to eliminate scattered communication.
+                </p>
+              </div>
+            </ScrollReveal>
+
+            <ScrollReveal direction="up" delay={500}>
+              <div className="bg-[#1e293b]/50 rounded-xl p-8 border border-white/10 hover:border-[#2563eb]/50 hover:-translate-y-1 transition-all">
+                <FileText className="text-[#2563eb] mb-4" size={32} />
+                <h3 className="text-xl font-bold text-[#f1f5f9] mb-3">Issue Templates</h3>
+                <p className="text-[#94a3b8] text-sm leading-relaxed">
+                  Prebuilt templates for landing pages, SEO reports, and UI kits help you deliver faster without missing any details.
+                </p>
+              </div>
+            </ScrollReveal>
+          </div>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-24">
           {features.map((feature, index) => (

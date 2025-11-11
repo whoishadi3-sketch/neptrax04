@@ -6,6 +6,7 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Privacy from './pages/Privacy';
+import Security from './pages/Security';
 import FAQs from './pages/FAQs';
 
 function App() {
@@ -36,7 +37,7 @@ function App() {
       case 'privacy':
         return <Privacy />;
       case 'security':
-        return <Privacy />;
+        return <Security />;
       case 'faqs':
         return <FAQs />;
       default:

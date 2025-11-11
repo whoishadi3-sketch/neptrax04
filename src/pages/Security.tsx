@@ -1,15 +1,15 @@
-import { Shield, Database, FileText, UserCheck, Globe, Info } from 'lucide-react';
+import { Lock, Shield, Eye, AlertTriangle, FileCheck, RefreshCw } from 'lucide-react';
 
-export default function Privacy() {
+export default function Security() {
   return (
     <div className="min-h-screen bg-[#0d1117] pt-24 pb-20">
       <div className="max-w-4xl mx-auto px-6">
         <div className="text-center mb-12">
           <h1 className="text-5xl font-bold text-[#f1f5f9] mb-4">
-            Privacy Policy
+            Security Policy
           </h1>
           <p className="text-[#94a3b8] text-lg">
-            Your privacy is our priority
+            Your security is our top priority
           </p>
         </div>
 
@@ -17,7 +17,7 @@ export default function Privacy() {
           <div className="bg-[#1e293b] rounded-2xl p-8 shadow-[0_4px_20px_rgba(0,0,0,0.2)]">
             <div className="text-[#94a3b8] space-y-4 leading-relaxed">
               <p>
-                At <strong className="text-[#f1f5f9]">Neptrax</strong>, your privacy is our priority. We are dedicated to protecting your personal information and maintaining complete transparency about how we handle your data.
+                At <strong className="text-[#f1f5f9]">Neptrax</strong>, we take information security seriously. Our platform and infrastructure are designed to protect your data through multiple, independently reinforced layers of defense.
               </p>
             </div>
           </div>
@@ -25,21 +25,18 @@ export default function Privacy() {
           <div className="bg-[#1e293b] rounded-2xl p-8 shadow-[0_4px_20px_rgba(0,0,0,0.2)]">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#2563eb] to-[#1e3a8a] flex items-center justify-center">
-                <FileText className="text-[#f1f5f9]" size={24} />
+                <Lock className="text-[#f1f5f9]" size={24} />
               </div>
               <h2 className="text-2xl font-bold text-[#f1f5f9]">
-                Data Collection
+                Data Encryption
               </h2>
             </div>
             <div className="text-[#94a3b8] space-y-4 leading-relaxed">
               <p>
-                We collect only the information you voluntarily provide through our contact forms, such as your <strong className="text-[#f1f5f9]">name</strong>, <strong className="text-[#f1f5f9]">email address</strong>, and <strong className="text-[#f1f5f9]">message details</strong>.
+                All data transmitted between your browser and our servers is encrypted using the latest <strong className="text-[#f1f5f9]">SSL/TLS</strong> protocols.
               </p>
               <p>
-                Neptrax does <strong className="text-[#f1f5f9]">not</strong> use invasive tracking cookies, third-party analytics, or behavioral data tools that compromise user privacy.
-              </p>
-              <p>
-                All optional analytics, if ever enabled, will remain fully anonymized.
+                We regularly update our certificates and perform integrity checks to ensure communication remains secure at all times.
               </p>
             </div>
           </div>
@@ -50,18 +47,15 @@ export default function Privacy() {
                 <Shield className="text-[#f1f5f9]" size={24} />
               </div>
               <h2 className="text-2xl font-bold text-[#f1f5f9]">
-                Data Usage
+                Secure Infrastructure
               </h2>
             </div>
             <div className="text-[#94a3b8] space-y-4 leading-relaxed">
               <p>
-                Your information is used solely for communication and service delivery purposes — to respond to inquiries, process requests, and provide updates about your projects.
+                Neptrax's web servers and databases operate on <strong className="text-[#f1f5f9]">professionally managed, security-hardened environments</strong>.
               </p>
               <p>
-                Neptrax will <strong className="text-[#f1f5f9]">never share, sell, rent, or trade</strong> your information to outside parties without explicit consent.
-              </p>
-              <p>
-                We uphold a strict internal data access policy to ensure that only authorized personnel can view your information.
+                Continuous monitoring, patching, and automated backups ensure resilience against downtime and breaches.
               </p>
             </div>
           </div>
@@ -69,21 +63,18 @@ export default function Privacy() {
           <div className="bg-[#1e293b] rounded-2xl p-8 shadow-[0_4px_20px_rgba(0,0,0,0.2)]">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#2563eb] to-[#1e3a8a] flex items-center justify-center">
-                <Database className="text-[#f1f5f9]" size={24} />
+                <Eye className="text-[#f1f5f9]" size={24} />
               </div>
               <h2 className="text-2xl font-bold text-[#f1f5f9]">
-                Data Storage & Retention
+                Access Control & Authentication
               </h2>
             </div>
             <div className="text-[#94a3b8] space-y-4 leading-relaxed">
               <p>
-                All data is stored on secure, encrypted servers managed under modern cybersecurity standards.
+                Only authorized Neptrax personnel have access to sensitive system areas, and every login attempt is monitored and logged.
               </p>
               <p>
-                Regular system backups and monitoring are performed to ensure data integrity.
-              </p>
-              <p>
-                We retain your information only as long as required to fulfill its intended purpose, after which it is permanently deleted.
+                Strict <strong className="text-[#f1f5f9]">multi-factor authentication</strong> and <strong className="text-[#f1f5f9]">role-based permissions</strong> protect critical assets from unauthorized access.
               </p>
             </div>
           </div>
@@ -91,21 +82,18 @@ export default function Privacy() {
           <div className="bg-[#1e293b] rounded-2xl p-8 shadow-[0_4px_20px_rgba(0,0,0,0.2)]">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#2563eb] to-[#1e3a8a] flex items-center justify-center">
-                <UserCheck className="text-[#f1f5f9]" size={24} />
+                <FileCheck className="text-[#f1f5f9]" size={24} />
               </div>
               <h2 className="text-2xl font-bold text-[#f1f5f9]">
-                Your Rights
+                Regular Security Audits
               </h2>
             </div>
             <div className="text-[#94a3b8] space-y-4 leading-relaxed">
               <p>
-                You have the right to request access, correction, or deletion of your data at any time.
+                We perform internal and third-party <strong className="text-[#f1f5f9]">vulnerability assessments</strong> and <strong className="text-[#f1f5f9]">penetration tests</strong> to identify potential risks early.
               </p>
               <p>
-                Upon receiving a verified request, we promptly update or remove your information from our systems.
-              </p>
-              <p>
-                For privacy-related requests or clarifications, you can contact us directly via our support email or contact form.
+                Detected vulnerabilities are resolved promptly as part of our proactive security cycle.
               </p>
             </div>
           </div>
@@ -113,18 +101,34 @@ export default function Privacy() {
           <div className="bg-[#1e293b] rounded-2xl p-8 shadow-[0_4px_20px_rgba(0,0,0,0.2)]">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#2563eb] to-[#1e3a8a] flex items-center justify-center">
-                <Globe className="text-[#f1f5f9]" size={24} />
+                <AlertTriangle className="text-[#f1f5f9]" size={24} />
               </div>
               <h2 className="text-2xl font-bold text-[#f1f5f9]">
-                Commitment to Transparency
+                Incident Response
               </h2>
             </div>
             <div className="text-[#94a3b8] space-y-4 leading-relaxed">
               <p>
-                Neptrax continuously reviews its data handling processes to comply with evolving global privacy regulations (including GDPR-like frameworks).
+                In the unlikely event of a security issue, Neptrax maintains a <strong className="text-[#f1f5f9]">documented response protocol</strong> to contain, assess, and resolve threats immediately while notifying affected users where appropriate.
+              </p>
+            </div>
+          </div>
+
+          <div className="bg-[#1e293b] rounded-2xl p-8 shadow-[0_4px_20px_rgba(0,0,0,0.2)]">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#2563eb] to-[#1e3a8a] flex items-center justify-center">
+                <RefreshCw className="text-[#f1f5f9]" size={24} />
+              </div>
+              <h2 className="text-2xl font-bold text-[#f1f5f9]">
+                Continuous Improvement
+              </h2>
+            </div>
+            <div className="text-[#94a3b8] space-y-4 leading-relaxed">
+              <p>
+                Security is not a one-time setup — it's an ongoing commitment.
               </p>
               <p>
-                We are committed to ensuring our users' digital trust through ongoing transparency and strong privacy practices.
+                We consistently evolve our systems, update best practices, and train our team to anticipate and defend against emerging threats.
               </p>
             </div>
           </div>
